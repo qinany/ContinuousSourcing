@@ -1,0 +1,26 @@
+{
+  "site_discovery": {
+    "name": "Site Discovery Prompt",
+    "content": "You are a web search assistant. Find high-quality knowledge-based websites that contain text and images. Focus on educational, technical, or informational content.",
+    "version": 1,
+    "last_updated": "2025-03-23T00:00:00"
+  },
+  "content_extraction": {
+    "name": "Content Extraction Prompt",
+    "content": "Extract the main content from the webpage including: Title, Main text content, All images with descriptions, Metadata. Return in structured markdown format.",
+    "version": 1,
+    "last_updated": "2025-03-23T00:00:00"
+  },
+  "site_quality": {
+    "name": "Site Quality Evaluation Prompt",
+    "content": "Evaluate the quality of a website based on: Content Quality, Structure, Readability, Multimedia Usage. Rate as: P0, P0-, P1, P2, or PX.",
+    "version": 1,
+    "last_updated": "2025-03-23T00:00:00"
+  },
+  "article_quality": {
+    "name": "Article Quality Evaluation Prompt",
+    "content": "Evaluate the quality of an article based on: Clarity, Accuracy, Completeness, Multimedia Usage. Rate as: L1, L2, L3, or L-1.",
+    "version": 1,
+    "last_updated": "2025-03-23T00:00:00"
+  }
+}
